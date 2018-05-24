@@ -83,7 +83,7 @@ const info = {
   },
   summary: {
     description: `
-      I am a Full Stack Javascript Developer, self-taught. My skills have been learning
+      I am a Front End Developer, self-taught. My skills have been learning
       following tutorials, video tutorials, documentation of technologies among other things.
       I mainly use javascript technologies such as ReactJS, Mongodb, Express.
       I'm taking experience using React Native for the development of mobile applications,
@@ -115,7 +115,7 @@ const info = {
   experiences: {
     items: [
       {
-        position: 'Javascript Fullstack Developer',
+        position: 'Front End Developer',
         company: 'Sapco',
         time: 'Dec 2016 - May 2017',
         description: `
