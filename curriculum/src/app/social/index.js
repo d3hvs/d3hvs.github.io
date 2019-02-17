@@ -1,7 +1,6 @@
 import React from 'react';
 
 // @components
-import { Button } from 'react-md';
 import { SocialIcon } from 'react-social-icons';
 
 // @styles
@@ -20,8 +19,8 @@ const Social = () => {
     }
     return (
         <div className="social">
-            <Button
-                icon
+            <div
+                className="social__item"
                 onClick={goTo('https://twitter.com/dhv_xvx')}
             >
                 <SocialIcon
@@ -29,10 +28,10 @@ const Social = () => {
                     network="twitter"
                     style={style.icons}
                 />
-            </Button>
+            </div>
 
-            <Button
-                icon
+            <div
+                className="social__item"
                 onClick={goTo('https://github.com/davidhiguita')}
             >
                 <SocialIcon
@@ -40,10 +39,10 @@ const Social = () => {
                     network="github"
                     style={style.icons}
                 />
-            </Button>
+            </div>
 
-            <Button
-                icon
+            <div
+                className="social__item"
                 onClick={goTo('https://www.linkedin.com/in/david-higuita-873bb293/')}
             >
                 <SocialIcon
@@ -51,7 +50,7 @@ const Social = () => {
                     network="linkedin"
                     style={style.icons}
                 />
-            </Button>
+            </div>
         </div>
     );
 };

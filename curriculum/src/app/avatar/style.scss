@@ -14,7 +14,6 @@ $name-font-size: 1.25rem;
     &__image {
         border: solid 5px #2196f3;
         border-radius: 50%;
-        // box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
         box-sizing: border-box;
         height: $image-size;
         left: calc((100% - #{$image-size}) / 2);
