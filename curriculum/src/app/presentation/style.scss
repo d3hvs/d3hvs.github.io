@@ -1,0 +1,13 @@
+.presentation {
+    padding: 10px;
+
+    &__title {
+        font-size: 1.35rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    &__content {
+        text-align: justify;
+    }
+}
