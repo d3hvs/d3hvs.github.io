@@ -4,17 +4,13 @@ import React from 'react';
 import ExperienceItem from './experience-item';
 
 // @data
-import { experienceInfo } from '../data';
+import { experienceInfo } from '../../data';
 
 // @styles
 import './style.scss';
 
 const Experience = () => (
     <div className="experience">
-        <div className="experience__title">
-            Experience
-        </div>
-
         <div className="experience__content">
             {experienceInfo.map((item, index) => (
                 <ExperienceItem

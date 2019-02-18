@@ -1,15 +1,24 @@
-$avatar-height: 200px;
-$avatar-width: 200px;
+$avatar-height: 120px;
+$avatar-width: 120px;
 $image-size: 120px;
-$name-font-size: 1.25rem;
 
 .avatar {
+    border-radius: 50%;
+    cursor: pointer;
     height: $avatar-height;
     left: 50%;
     position: fixed;
-    top: 70px;
+    top: 135px;
     transform: translateX(-50%);
     width: $avatar-width;
+
+    &:hover {
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.9);
+    }
+
+    &--focused {
+        box-shadow: 0 0 5px 5px #FFF;
+    }
 
     &__image {
         border: solid 5px #2196f3;
@@ -19,19 +28,5 @@ $name-font-size: 1.25rem;
         left: calc((100% - #{$image-size}) / 2);
         position: absolute;
         width: $image-size;
-    }
-
-    &__name {
-        font-size: $name-font-size;
-        font-weight: bold;
-        position: absolute;
-        top: calc(#{$image-size});
-    }
-
-    &__position {
-        font-size: 1rem;
-        left: 25px;
-        position: absolute;
-        top: calc(#{$image-size} + 30px);
     }
 }

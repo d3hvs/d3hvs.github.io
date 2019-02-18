@@ -1,7 +1,7 @@
 import React from 'react';
 
 // @data
-import { presentationText } from '../data';
+import { presentationText } from '../../data';
 
 // @styles
 import './style.scss';

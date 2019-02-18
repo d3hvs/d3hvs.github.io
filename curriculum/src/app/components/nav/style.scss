@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 160px;
+    width: 100%;
+
+    &__item {
+        border-radius: 6px;
+        color: #FFFF;
+        font-size: 1.45rem;
+        margin: auto 20px;
+        padding: 5px;
+        text-decoration: none;
+
+        &:hover {
+            box-shadow: 0 0 4px 4px orange;
+        }
+
+        &--focused {
+            border-bottom: solid 2px orange;
+        }
+    }
+
+    // &__left, &__right {
+    //     a {
+    //         color: #FFFF;
+    //         font-size: 1.45rem;
+    //         margin: auto 20px;
+    //         text-decoration: none;
+    //     }
+    // }
+}
