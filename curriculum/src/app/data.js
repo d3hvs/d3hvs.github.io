@@ -6,13 +6,13 @@ export const experienceInfo = [{
     company: 'Team International',
     dateMax: 'Present',
     dateMin: 'Nov 2017',
-    summary: '',
+    summary: "I'm part of a big developers group creating an app for a customer from USA, adding new features following Scrum practices for an agile work",
     title: 'Front End Developer'
 }, {
     company: 'Sapco',
     dateMax: 'May 2017',
     dateMin: 'Dec 2016',
-    summary: 'A team developed Mobi app (for Android) using React Native. For web developments was used Angular.js',
+    summary: 'As team we developed Mobi app (for Android) using React Native. For web developments was used Angular.js',
     title: 'Front End Developer'
 }, {
     company: 'Research Group GIBIC of University of Antioquia',
@@ -26,4 +26,16 @@ export const experienceInfo = [{
     dateMin: 'Nov 2014',
     summary: 'I updating their web site and helping with web and desktop software development.',
     title: 'Apps developer for medical visualization'
+}];
+
+export const educationInfo = [{
+    dateMax: 'Sep 2014',
+    dateMin: 'May 2008',
+    institution: 'SENA',
+    title: 'Specialist development for Android'
+}, {
+    dateMax: 'Dec 2016',
+    dateMin: 'Jul 2016',
+    institution: 'University of Antioquia',
+    title: 'Bioengineer'
 }];

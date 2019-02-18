@@ -19,15 +19,25 @@
 
         &--focused {
             border-bottom: solid 2px orange;
+
+            .material-icons {
+                color: orange;
+            }
+        }
+
+        .material-icons {
+            margin-bottom: 5px;
+            margin-right: 5px;
         }
     }
 
-    // &__left, &__right {
-    //     a {
-    //         color: #FFFF;
-    //         font-size: 1.45rem;
-    //         margin: auto 20px;
-    //         text-decoration: none;
-    //     }
-    // }
+    @media (max-width: 768px) {
+        width: 60px;
+
+        &__item {
+            span {
+                visibility: hidden;
+            }
+        }
+    }
 }

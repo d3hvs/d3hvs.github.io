@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-md';
 import { Link, withRouter } from 'react-router-dom';
 import classNames from 'classnames';
 
@@ -19,13 +20,14 @@ const Nav = ({ location }) => {
                     className={getLinkClass('/experience')}
                     to="/experience"
                 >
-                    Experience
+                    <i className="material-icons">home</i>
+                    <span>Experience</span>
                 </Link>
                 <Link
                     className={getLinkClass('/skills')}
                     to="/skills"
                 >
-                    Skills
+                    <span>Skills</span>
                 </Link>
             </div>
 
@@ -34,13 +36,13 @@ const Nav = ({ location }) => {
                     className={getLinkClass('/education')}
                     to="/education"
                 >
-                    Education
+                    <span>Education</span>
                 </Link>
                 <Link
                     className={getLinkClass('/projects')}
                     to="/projects"
                 >
-                    Projects
+                    <span>Projects</span>
                 </Link>
             </div>
         </div>

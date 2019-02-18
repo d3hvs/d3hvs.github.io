@@ -13,14 +13,7 @@ const Experience = () => (
     <div className="experience">
         <div className="experience__content">
             {experienceInfo.map((item, index) => (
-                <ExperienceItem
-                    company={item.company}
-                    dateMax={item.dateMax}
-                    dateMin={item.dateMin}
-                    key={index}
-                    summary={item.summary}
-                    title={item.title}
-                />
+                <ExperienceItem {...item} key={index} />
             ))}
         </div>
     </div>
