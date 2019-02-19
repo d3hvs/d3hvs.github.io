@@ -1,19 +1,18 @@
 import React from 'react';
 
 // @components
-import Info from '../../components/info';
+import AboutMe from '../../components/about-me';
+import PersonalInfo from '../../components/personal-info';
+import Separator from '../../components/separator';
 
-// @data
-import {
-    aboutMeText
-} from '../../data';
+// @styles
+import './style.scss';
 
 const Home = () => (
     <div className="home">
-        <Info
-            content={aboutMeText}
-            title="About me"
-        />
+        <AboutMe />
+        <PersonalInfo />
+        <Separator />
     </div>
 );
 
