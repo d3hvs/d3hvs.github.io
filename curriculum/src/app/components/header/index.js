@@ -1,22 +1,21 @@
 import React from 'react';
-
-// @components
-import Nav from '../nav';
+import { Link } from 'react-router-dom';
 
 // @styles
 import './style.scss';
 
 const Header = () => (
-    <div className="header">
-        <Nav />
-        <div className="header__name">
-            David Higuita
-        </div>
+    <header className="header">
+        <nav className="nav">
+            <div className="nav__item">
+                <Link to="/">Home</Link>
+            </div>
 
-        <div className="header__position">
-            Front End Developer
-        </div>
-    </div>
+            <div className="nav__item">
+                <Link to="/contact">Contact</Link>
+            </div>
+        </nav>
+    </header>
 );
 
 export default Header;

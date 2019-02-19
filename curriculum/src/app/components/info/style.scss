@@ -1,0 +1,22 @@
+$black-color: #2A2A2A;
+$light-text-color: gray;
+
+.info {
+    color: $light-text-color;
+
+    &__title {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    &__content {
+        font-size: 1.4rem;
+    }
+
+    .separator {
+        background-color: $black-color;
+        box-shadow: 0 0 1px 1px $black-color;
+        height: 1px;
+        margin: 30px 0;
+    }
+}
