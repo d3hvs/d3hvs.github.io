@@ -93,12 +93,20 @@ body, html {
 
     // jumbotron styles
 
-    @media (max-width: 768px) {
+    @media (max-width: 980px) {
         &:before {
-            border: transparent;
+            border-bottom: solid 20px transparent;
+            border-left: solid 20px transparent;
+            border-right: solid 20px $red-color;
+            border-top: solid 20px $red-color;
         }
 
-        &__content, .header {
+        &__content {
+            margin-left: 2.5%;
+            width: 95%;
+        }
+
+        .header {
             margin-left: 0;
             width: 100%;
         }

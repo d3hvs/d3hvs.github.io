@@ -13,22 +13,25 @@ $white-color: #FFFF;
     width: 100%;
 
     .avatar {
+        align-items: center;
+        display: flex;
+        justify-content: center;
         padding: 10px;
         position: relative;
-        flex: 30%;
+        flex: 180px;
 
         img {
             border-radius: 50%;
             position: absolute;
-            height: calc(100% - 20px);
-            width: calc(100% - 20px);
+            height: 140px;
+            width: 140px;
         }
     }
 
     &__info {
         align-items: center;
         display: flex;
-        flex: 70%;
+        flex: calc(100% - 160px);
         flex-direction: column;
         justify-content: center;
     }
