@@ -1,6 +1,7 @@
 import React from 'react';
 
 // @components
+import Experience from '../../components/experience';
 import Info from '../../components/info';
 
 // @data
@@ -10,10 +11,13 @@ import {
 
 const Home = () => (
     <div className="home">
-        <Info
-            content={aboutMeText}
-            title="About me"
-        />
+        <Info title="About me">
+            <span>
+                {aboutMeText}
+            </span>
+        </Info>
+
+        <Experience />
     </div>
 );
 

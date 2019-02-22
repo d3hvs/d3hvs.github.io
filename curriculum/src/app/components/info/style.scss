@@ -3,6 +3,8 @@ $light-text-color: gray;
 
 .info {
     color: $light-text-color;
+    display: flex;
+    flex-direction: column;
 
     &__title {
         font-size: 1.8rem;

@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 // @styles
 import './style.scss';
 
-const Info = ({ content, showSeparator, title }) => (
+const Info = ({ children, showSeparator, title }) => (
     <div className="info">
         <div className="info__title">
             {title}
         </div>
 
         <div className="info__content">
-            {content}
+            {children}
         </div>
 
         { showSeparator && <div className="separator" /> }
@@ -19,7 +19,10 @@ const Info = ({ content, showSeparator, title }) => (
 );
 
 Info.propTypes = {
-    content: PropTypes.string.isRequired,
+    children: PropTypes.oneOfType([
+        PropTypes.array,
+        PropTypes.element
+    ]).isRequired,
     showSeparator: PropTypes.bool,
     title: PropTypes.string.isRequired
 };
