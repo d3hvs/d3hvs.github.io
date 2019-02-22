@@ -5,9 +5,10 @@ import Experience from '../../components/experience';
 import Info from '../../components/info';
 
 // @data
-import {
-    aboutMeText
-} from '../../data';
+import { aboutMeText } from '../../data';
+
+// @styles
+import './style.scss';
 
 const Home = () => (
     <div className="home">

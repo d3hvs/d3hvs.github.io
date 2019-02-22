@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// @components
+import Separator from '../separator';
+
 // @styles
 import './style.scss';
 
@@ -14,7 +17,7 @@ const Info = ({ children, showSeparator, title }) => (
             {children}
         </div>
 
-        { showSeparator && <div className="separator" /> }
+        { showSeparator && <Separator /> }
     </div>
 );
 
