@@ -2,7 +2,6 @@ import React from 'react';
 
 // @components
 import Info from '../info';
-import Separator from '../separator';
 
 // @data
 import {
