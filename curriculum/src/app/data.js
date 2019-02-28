@@ -43,3 +43,20 @@ export const educationInfo = [{
     institution: 'University of Antioquia',
     title: 'Bioengineer'
 }];
+
+export const professionalSkilss = [{
+    title: 'Javascript',
+    progress: 80
+}, {
+    title: 'Css',
+    progress: 70
+}, {
+    title: 'React.js',
+    progress: 75
+}, {
+    title: 'Node.js',
+    progress: 55
+}, {
+    title: 'React Native',
+    progress: 60
+}];

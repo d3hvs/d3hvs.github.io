@@ -1,0 +1,17 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    margin: 15px 0;
+
+    &__title {
+        color: #FFFFFF;
+        flex: 40%;
+        font-weight: bold;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 
 // @components
+import Info from '../info';
 import Separator from '../separator';
 
 // @data
@@ -12,17 +13,13 @@ import {
 import './style.scss';
 
 const AboutMe = () => (
-    <div className="about-me">
-        <div className="about-me__title">
-            About me
+    <Info title="About me">
+        <div className="about-me">
+            <div className="about-me__content">
+                {aboutMeText}
+            </div>
         </div>
-
-        <div className="about-me__content">
-            {aboutMeText}
-        </div>
-
-        <Separator />
-    </div>
+    </Info>
 );
 
 export default AboutMe;
