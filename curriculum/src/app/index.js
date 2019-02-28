@@ -12,12 +12,6 @@ import Jumbotron from './components/jumbotron';
 import 'react-md/src/scss/_react-md.scss';
 import './style.scss';
 
-const Test = ({ text }) => (
-    <div>
-        {text}
-    </div>
-);
-
 const Curriculum = () => (
     <HashRouter basename="/">
         <div className="curriculum">
@@ -29,7 +23,6 @@ const Curriculum = () => (
                 <div className="curriculum__route">
                     <Switch>
                         <Route exact path="/" component={Home} />
-                        <Route exact path="/contact" render={() => <Test text="Contact" />} />
                     </Switch>
                 </div>
             </div>

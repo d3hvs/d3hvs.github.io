@@ -1,5 +1,8 @@
 import React from 'react';
 
+// @components
+import Separator from '../separator';
+
 // @data
 import {
     aboutMeText
@@ -18,7 +21,7 @@ const AboutMe = () => (
             {aboutMeText}
         </div>
 
-        <div className="separator" />
+        <Separator />
     </div>
 );
 
