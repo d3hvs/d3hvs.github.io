@@ -1,6 +1,8 @@
 import React from 'react';
 
+// @components
 import { SocialIcon } from 'react-social-icons';
+import Avatar from '../../assets/profile.png';
 
 // @styles
 import './style.scss';
@@ -12,7 +14,7 @@ const openSocialNetwork = (path) => () => {
 const Jumbotron = () => (
     <section className="jumbotron">
         <div className="avatar">
-            <img alt="Avatar" src="https://cdn.iconscout.com/icon/free/png-256/avatar-369-456321.png" />
+            <img alt="Avatar" src={Avatar} />
         </div>
 
         <div className="jumbotron__info">
