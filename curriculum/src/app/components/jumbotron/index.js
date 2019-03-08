@@ -1,5 +1,6 @@
 import React from 'react';
 
+// @components
 import { SocialIcon } from 'react-social-icons';
 
 // @styles
@@ -9,10 +10,12 @@ const openSocialNetwork = (path) => () => {
     window.open(path, '_blank')
 };
 
+const AVATAR_URL = 'https://cdn.iconscout.com/icon/free/png-256/avatar-369-456321.png';
+
 const Jumbotron = () => (
     <section className="jumbotron">
         <div className="avatar">
-            <img alt="Avatar" src="https://cdn.iconscout.com/icon/free/png-256/avatar-369-456321.png" />
+            <img alt="Avatar" src={AVATAR_URL} />
         </div>
 
         <div className="jumbotron__info">
@@ -25,6 +28,16 @@ const Jumbotron = () => (
             </div>
 
             <div className="jumbotron__social">
+                <div
+                    className="jumbotron__social-item"
+                    onClick={openSocialNetwork('https://github.com/davidhiguita')}
+                >
+                    <SocialIcon
+                        bgColor="#FFFFFF"
+                        network="github"
+                    />
+                </div>
+
                 <div
                     className="jumbotron__social-item"
                     onClick={openSocialNetwork('https://twitter.com/dhv_xvx')}

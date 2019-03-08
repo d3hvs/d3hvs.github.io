@@ -1,8 +1,9 @@
 import React from 'react';
 
 // @components
+import { Timeline, Event } from "react-timeline-scribble";
+
 import Info from '../info';
-import ExperienceItem from './experience-item';
 
 // @data
 import { experienceInfo } from '../../data';
@@ -13,9 +14,18 @@ import './style.scss';
 const Experience = () => (
     <Info title="experience">
         <div className="experience">
-            {experienceInfo.map((data, index) => (
-                <ExperienceItem {...data} key={`experience-item-${index}`} />
-            ))}
+            <Timeline>
+                {experienceInfo.map((data, index) => (
+                    <Event
+                        interval={`${data.dateMin} - ${data.dateMax}`}
+                        key={`experience-item-${index}`}
+                        title={data.title}
+                        subtitle={data.company}
+                    >
+                        {data.summary}
+                    </Event>
+                ))}
+            </Timeline>
         </div>
     </Info>
 );

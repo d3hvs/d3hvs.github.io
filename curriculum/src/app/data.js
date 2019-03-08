@@ -29,7 +29,7 @@ export const experienceInfo = [{
     dateMax: 'NOv 2015',
     dateMin: 'Nov 2014',
     summary: 'I updating their web site and helping with web and desktop software development.',
-    title: 'Apps developer for medical visualization'
+    title: 'Front End developer'
 }];
 
 export const educationInfo = [{
@@ -58,5 +58,8 @@ export const professionalSkilss = [{
     progress: 55
 }, {
     title: 'React Native',
+    progress: 60
+}, {
+    title: 'Python',
     progress: 60
 }];
