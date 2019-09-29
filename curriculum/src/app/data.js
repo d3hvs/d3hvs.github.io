@@ -26,9 +26,9 @@ export const experienceInfo = [{
     title: 'Front End Developer'
 }, {
     company: 'Research Group GIBIC of University of Antioquia',
-    dateMax: 'NOv 2015',
+    dateMax: 'Nov 2015',
     dateMin: 'Nov 2014',
-    summary: 'I updating their web site and helping with web and desktop software development.',
+    summary: 'I updated their web site and help with web and desktop software development.',
     title: 'Front End developer'
 }];
 
@@ -42,24 +42,4 @@ export const educationInfo = [{
     dateMin: 'Jul 2016',
     institution: 'University of Antioquia',
     title: 'Bioengineer'
-}];
-
-export const professionalSkilss = [{
-    title: 'Javascript',
-    progress: 80
-}, {
-    title: 'Css',
-    progress: 70
-}, {
-    title: 'React.js',
-    progress: 75
-}, {
-    title: 'Node.js',
-    progress: 55
-}, {
-    title: 'React Native',
-    progress: 60
-}, {
-    title: 'Python',
-    progress: 60
 }];
