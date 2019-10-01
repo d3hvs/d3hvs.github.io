@@ -30,7 +30,7 @@ const Jumbotron = () => (
             <div className="jumbotron__social">
                 <div
                     className="jumbotron__social-item"
-                    onClick={openSocialNetwork('https://github.com/davidhiguita')}
+                    onClick={openSocialNetwork('https://github.com/d3hvs')}
                 >
                     <SocialIcon
                         bgColor="#FFFFFF"
@@ -40,7 +40,7 @@ const Jumbotron = () => (
 
                 <div
                     className="jumbotron__social-item"
-                    onClick={openSocialNetwork('https://twitter.com/dhv_xvx')}
+                    onClick={openSocialNetwork('https://twitter.com/d3hvs')}
                 >
                     <SocialIcon
                         bgColor="#FFFFFF"
