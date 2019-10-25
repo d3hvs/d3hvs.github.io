@@ -194,4 +194,32 @@
     display: flex;
     flex-direction: column;
   }
+
+  .timeline__item {
+    grid-template-areas: 'item-dates'
+      'item-company'
+      'item-position'
+      'item-description';
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 70px 50px 1fr;
+    padding-left: 20px;
+  }
+
+  .timeline__item:after,
+  .timeline__item:before {
+    left: -10px;
+  }
+
+  .timeline__item:before {
+    border: solid 6px black;
+    border-radius: 50%;
+    box-shadow:
+      0 0 0 3px #2397A0,
+      0 0 0 6px #8EC8CC;
+    left: -12px;
+  }
+
+  .timeline__item-dates {
+    position: relative;
+  }
 }
