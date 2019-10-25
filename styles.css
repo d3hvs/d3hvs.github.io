@@ -210,7 +210,7 @@
       'item-position'
       'item-description';
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 85px 70px 1fr;
+    grid-template-rows: 40px 85px 50px 1fr;
     padding-left: 20px;
   }
 
