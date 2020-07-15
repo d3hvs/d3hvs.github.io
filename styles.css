@@ -27,6 +27,7 @@
   position: fixed;
   right: 20px;
   top: 0;
+  z-index: 2;
 }
   .header__menu {
     align-items: center;
