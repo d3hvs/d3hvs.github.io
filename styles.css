@@ -23,6 +23,8 @@
   width: 100vw;
 }
 
+
+
 .header {
   position: fixed;
   right: 20px;
@@ -100,8 +102,11 @@
 }
 
 .content {
+  height: 100vh;
   overflow-y: auto;
   padding-bottom: 20px;
+  padding-left: calc((100vw - 1200px) / 2);
+  padding-right: calc((100vw - 1200px) / 2);
 }
   .name,
   .description,
@@ -130,6 +135,7 @@
 .experience {
   display: grid;
   grid-gap: 20px;
+  grid-auto-rows: 300px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: 300px;
   padding: 40px;
